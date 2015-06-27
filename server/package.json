@@ -1,0 +1,30 @@
+{
+  "name": "pythagoras",
+  "version": "1.0.0",
+  "description": "budget calculation",
+  "main": "index.js",
+  "scripts": {
+    "test": "print \"hello\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MariaEmma/Pythagoras.git"
+  },
+  "keywords": [
+    "expenses",
+    "budget",
+    "pythagoras"
+  ],
+  "author": "ValmarEmma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaEmma/Pythagoras/issues"
+  },
+  "homepage": "https://github.com/MariaEmma/Pythagoras",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.13.0",
+    "jwt-simple": "^0.3.0",
+    "morgan": "^1.6.0"
+  }
+}
