@@ -1,0 +1,671 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '--save' ]
+2 info using npm@2.1.14
+3 info using node@v0.10.35
+4 verbose node symlink /usr/local/bin/node
+5 silly mapToRegistry name body-parser
+6 silly mapToRegistry using default registry
+7 silly mapToRegistry registry https://registry.npmjs.org/
+8 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+9 silly mapToRegistry name express
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/express
+13 silly mapToRegistry name jwt-simple
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/jwt-simple
+17 silly mapToRegistry name morgan
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/morgan
+21 silly mapToRegistry name mongodb
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+25 verbose request uri https://registry.npmjs.org/body-parser
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 20:51:42
+28 verbose request id bc19653a19473847
+29 verbose etag "F589Q9ZM1Z9GELNL7UZBOW6C8"
+30 http request GET https://registry.npmjs.org/body-parser
+31 verbose request uri https://registry.npmjs.org/morgan
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 20:51:42
+34 verbose etag "2LMEF977TR0XZ9OVWJ18U736U"
+35 http request GET https://registry.npmjs.org/morgan
+36 verbose request uri https://registry.npmjs.org/jwt-simple
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 20:51:42
+39 verbose etag "9DWQIT26SB85CLH645LK9S1JF"
+40 http request GET https://registry.npmjs.org/jwt-simple
+41 verbose request uri https://registry.npmjs.org/express
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 20:51:42
+44 verbose etag "AYA5U4XXWWX2J3OKMAE6J9JYM"
+45 http request GET https://registry.npmjs.org/express
+46 verbose request uri https://registry.npmjs.org/mongodb
+47 verbose request no auth needed
+48 info attempt registry request try #1 at 20:51:42
+49 verbose etag "AON3KVQ07DG2M8XPHEVO808OC"
+50 http request GET https://registry.npmjs.org/mongodb
+51 http 304 https://registry.npmjs.org/body-parser
+52 silly get cb [ 304,
+52 silly get   { date: 'Sat, 27 Jun 2015 17:51:42 GMT',
+52 silly get     via: '1.1 varnish',
+52 silly get     'cache-control': 'max-age=60',
+52 silly get     etag: '"F589Q9ZM1Z9GELNL7UZBOW6C8"',
+52 silly get     age: '25',
+52 silly get     connection: 'keep-alive',
+52 silly get     'x-served-by': 'cache-lhr6323-LHR',
+52 silly get     'x-cache': 'HIT',
+52 silly get     'x-cache-hits': '1',
+52 silly get     'x-timer': 'S1435427502.846564,VS0,VE2',
+52 silly get     vary: 'Accept' } ]
+53 verbose etag https://registry.npmjs.org/body-parser from cache
+54 silly mapToRegistry name bytes
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry uri https://registry.npmjs.org/bytes
+58 silly mapToRegistry name content-type
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry uri https://registry.npmjs.org/content-type
+62 silly mapToRegistry name debug
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/debug
+66 silly mapToRegistry name depd
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry uri https://registry.npmjs.org/depd
+70 silly mapToRegistry name http-errors
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry uri https://registry.npmjs.org/http-errors
+74 silly mapToRegistry name iconv-lite
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+78 silly mapToRegistry name on-finished
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/on-finished
+82 silly mapToRegistry name qs
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/qs
+86 silly mapToRegistry name raw-body
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+90 silly mapToRegistry name type-is
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/type-is
+94 verbose request uri https://registry.npmjs.org/bytes
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 20:51:42
+97 verbose etag "E96BNQ48UBQJRVP6GS44HMVRQ"
+98 http request GET https://registry.npmjs.org/bytes
+99 verbose request uri https://registry.npmjs.org/content-type
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 20:51:42
+102 verbose etag "8O24AGWIP2HNNPS49I8AYDZS8"
+103 http request GET https://registry.npmjs.org/content-type
+104 verbose request uri https://registry.npmjs.org/debug
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 20:51:42
+107 verbose etag "B4SB2Y9JZOQ84SENBEDU723HX"
+108 http request GET https://registry.npmjs.org/debug
+109 verbose request uri https://registry.npmjs.org/depd
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 20:51:42
+112 verbose etag "EXES9RDIT31NIDPYYVZ47XB58"
+113 http request GET https://registry.npmjs.org/depd
+114 verbose request uri https://registry.npmjs.org/http-errors
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 20:51:42
+117 verbose etag "SXH43K3HIBV84M1DG2Y3Y70Q"
+118 http request GET https://registry.npmjs.org/http-errors
+119 verbose request uri https://registry.npmjs.org/iconv-lite
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 20:51:42
+122 verbose etag "6DRVHDEKU1YF4XXR87LKODM69"
+123 http request GET https://registry.npmjs.org/iconv-lite
+124 verbose request uri https://registry.npmjs.org/on-finished
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 20:51:42
+127 verbose etag "C44T40JT6D1IJCD9FNXBNZP4B"
+128 http request GET https://registry.npmjs.org/on-finished
+129 verbose request uri https://registry.npmjs.org/raw-body
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 20:51:42
+132 verbose etag "DG42R81A7SFD39E1PX42G0LTZ"
+133 http request GET https://registry.npmjs.org/raw-body
+134 verbose request uri https://registry.npmjs.org/qs
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 20:51:42
+137 verbose etag "32DQMMPM7UN40DZIXD548OIVJ"
+138 http request GET https://registry.npmjs.org/qs
+139 verbose request uri https://registry.npmjs.org/type-is
+140 verbose request no auth needed
+141 info attempt registry request try #1 at 20:51:42
+142 verbose etag "5RM645FND4R3MJKIG0OSDJMS4"
+143 http request GET https://registry.npmjs.org/type-is
+144 http 304 https://registry.npmjs.org/express
+145 silly get cb [ 304,
+145 silly get   { date: 'Sat, 27 Jun 2015 17:51:42 GMT',
+145 silly get     via: '1.1 varnish',
+145 silly get     'cache-control': 'max-age=60',
+145 silly get     etag: '"AYA5U4XXWWX2J3OKMAE6J9JYM"',
+145 silly get     age: '3',
+145 silly get     connection: 'keep-alive',
+145 silly get     'x-served-by': 'cache-lhr6327-LHR',
+145 silly get     'x-cache': 'HIT',
+145 silly get     'x-cache-hits': '1',
+145 silly get     'x-timer': 'S1435427502.887823,VS0,VE6',
+145 silly get     vary: 'Accept' } ]
+146 verbose etag https://registry.npmjs.org/express from cache
+147 http 304 https://registry.npmjs.org/mongodb
+148 silly get cb [ 304,
+148 silly get   { date: 'Sat, 27 Jun 2015 17:51:42 GMT',
+148 silly get     via: '1.1 varnish',
+148 silly get     'cache-control': 'max-age=60',
+148 silly get     etag: '"AON3KVQ07DG2M8XPHEVO808OC"',
+148 silly get     age: '19',
+148 silly get     connection: 'keep-alive',
+148 silly get     'x-served-by': 'cache-lhr6321-LHR',
+148 silly get     'x-cache': 'HIT',
+148 silly get     'x-cache-hits': '1',
+148 silly get     'x-timer': 'S1435427502.904915,VS0,VE5',
+148 silly get     vary: 'Accept' } ]
+149 verbose etag https://registry.npmjs.org/mongodb from cache
+150 http 304 https://registry.npmjs.org/morgan
+151 silly get cb [ 304,
+151 silly get   { date: 'Sat, 27 Jun 2015 17:51:42 GMT',
+151 silly get     via: '1.1 varnish',
+151 silly get     'cache-control': 'max-age=60',
+151 silly get     etag: '"2LMEF977TR0XZ9OVWJ18U736U"',
+151 silly get     age: '42',
+151 silly get     connection: 'keep-alive',
+151 silly get     'x-served-by': 'cache-lhr6331-LHR',
+151 silly get     'x-cache': 'HIT',
+151 silly get     'x-cache-hits': '10',
+151 silly get     'x-timer': 'S1435427502.906089,VS0,VE0',
+151 silly get     vary: 'Accept' } ]
+152 verbose etag https://registry.npmjs.org/morgan from cache
+153 http 304 https://registry.npmjs.org/jwt-simple
+154 silly get cb [ 304,
+154 silly get   { date: 'Sat, 27 Jun 2015 17:51:42 GMT',
+154 silly get     via: '1.1 varnish',
+154 silly get     'cache-control': 'max-age=60',
+154 silly get     etag: '"9DWQIT26SB85CLH645LK9S1JF"',
+154 silly get     age: '13',
+154 silly get     connection: 'keep-alive',
+154 silly get     'x-served-by': 'cache-lhr6331-LHR',
+154 silly get     'x-cache': 'HIT',
+154 silly get     'x-cache-hits': '1',
+154 silly get     'x-timer': 'S1435427502.910498,VS0,VE0',
+154 silly get     vary: 'Accept' } ]
+155 verbose etag https://registry.npmjs.org/jwt-simple from cache
+156 http 304 https://registry.npmjs.org/content-type
+157 silly get cb [ 304,
+157 silly get   { date: 'Sat, 27 Jun 2015 17:51:42 GMT',
+157 silly get     via: '1.1 varnish',
+157 silly get     'cache-control': 'max-age=60',
+157 silly get     etag: '"8O24AGWIP2HNNPS49I8AYDZS8"',
+157 silly get     age: '57',
+157 silly get     connection: 'keep-alive',
+157 silly get     'x-served-by': 'cache-lhr6327-LHR',
+157 silly get     'x-cache': 'HIT',
+157 silly get     'x-cache-hits': '1',
+157 silly get     'x-timer': 'S1435427502.973400,VS0,VE1',
+157 silly get     vary: 'Accept' } ]
+158 verbose etag https://registry.npmjs.org/content-type from cache
+159 http 304 https://registry.npmjs.org/debug
+160 silly get cb [ 304,
+160 silly get   { date: 'Sat, 27 Jun 2015 17:51:43 GMT',
+160 silly get     via: '1.1 varnish',
+160 silly get     'cache-control': 'max-age=60',
+160 silly get     etag: '"B4SB2Y9JZOQ84SENBEDU723HX"',
+160 silly get     age: '58',
+160 silly get     connection: 'keep-alive',
+160 silly get     'x-served-by': 'cache-lhr6321-LHR',
+160 silly get     'x-cache': 'HIT',
+160 silly get     'x-cache-hits': '1',
+160 silly get     'x-timer': 'S1435427503.003254,VS0,VE1',
+160 silly get     vary: 'Accept' } ]
+161 verbose etag https://registry.npmjs.org/debug from cache
+162 silly mapToRegistry name basic-auth
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry https://registry.npmjs.org/
+165 silly mapToRegistry uri https://registry.npmjs.org/basic-auth
+166 silly mapToRegistry name debug
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry uri https://registry.npmjs.org/debug
+170 silly mapToRegistry name depd
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry uri https://registry.npmjs.org/depd
+174 silly mapToRegistry name on-finished
+175 silly mapToRegistry using default registry
+176 silly mapToRegistry registry https://registry.npmjs.org/
+177 silly mapToRegistry uri https://registry.npmjs.org/on-finished
+178 silly mapToRegistry name on-headers
+179 silly mapToRegistry using default registry
+180 silly mapToRegistry registry https://registry.npmjs.org/
+181 silly mapToRegistry uri https://registry.npmjs.org/on-headers
+182 http 304 https://registry.npmjs.org/depd
+183 silly get cb [ 304,
+183 silly get   { date: 'Sat, 27 Jun 2015 17:51:43 GMT',
+183 silly get     via: '1.1 varnish',
+183 silly get     'cache-control': 'max-age=60',
+183 silly get     etag: '"EXES9RDIT31NIDPYYVZ47XB58"',
+183 silly get     age: '42',
+183 silly get     connection: 'keep-alive',
+183 silly get     'x-served-by': 'cache-lhr6331-LHR',
+183 silly get     'x-cache': 'HIT',
+183 silly get     'x-cache-hits': '1',
+183 silly get     'x-timer': 'S1435427503.006602,VS0,VE1',
+183 silly get     vary: 'Accept' } ]
+184 verbose etag https://registry.npmjs.org/depd from cache
+185 http 304 https://registry.npmjs.org/http-errors
+186 silly get cb [ 304,
+186 silly get   { date: 'Sat, 27 Jun 2015 17:51:43 GMT',
+186 silly get     via: '1.1 varnish',
+186 silly get     'cache-control': 'max-age=60',
+186 silly get     etag: '"SXH43K3HIBV84M1DG2Y3Y70Q"',
+186 silly get     age: '25',
+186 silly get     connection: 'keep-alive',
+186 silly get     'x-served-by': 'cache-lhr6331-LHR',
+186 silly get     'x-cache': 'HIT',
+186 silly get     'x-cache-hits': '14',
+186 silly get     'x-timer': 'S1435427503.010450,VS0,VE0',
+186 silly get     vary: 'Accept' } ]
+187 verbose etag https://registry.npmjs.org/http-errors from cache
+188 verbose request uri https://registry.npmjs.org/basic-auth
+189 verbose request no auth needed
+190 info attempt registry request try #1 at 20:51:43
+191 verbose etag "D3UT0Y9M1T7VQ8H971CXXWWD0"
+192 http request GET https://registry.npmjs.org/basic-auth
+193 verbose get https://registry.npmjs.org/debug not expired, no request
+194 verbose request uri https://registry.npmjs.org/depd
+195 verbose request no auth needed
+196 info attempt registry request try #1 at 20:51:43
+197 verbose etag "EXES9RDIT31NIDPYYVZ47XB58"
+198 http request GET https://registry.npmjs.org/depd
+199 verbose request uri https://registry.npmjs.org/on-finished
+200 verbose request no auth needed
+201 info attempt registry request try #1 at 20:51:43
+202 verbose etag "C44T40JT6D1IJCD9FNXBNZP4B"
+203 http request GET https://registry.npmjs.org/on-finished
+204 verbose request uri https://registry.npmjs.org/on-headers
+205 verbose request no auth needed
+206 info attempt registry request try #1 at 20:51:43
+207 verbose etag "A6ZSZABIK2GFUJNFK4C8MZXZ2"
+208 http request GET https://registry.npmjs.org/on-headers
+209 silly mapToRegistry name accepts
+210 silly mapToRegistry using default registry
+211 silly mapToRegistry registry https://registry.npmjs.org/
+212 silly mapToRegistry uri https://registry.npmjs.org/accepts
+213 silly mapToRegistry name array-flatten
+214 silly mapToRegistry using default registry
+215 silly mapToRegistry registry https://registry.npmjs.org/
+216 silly mapToRegistry uri https://registry.npmjs.org/array-flatten
+217 silly mapToRegistry name content-disposition
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npmjs.org/
+220 silly mapToRegistry uri https://registry.npmjs.org/content-disposition
+221 silly mapToRegistry name content-type
+222 silly mapToRegistry using default registry
+223 silly mapToRegistry registry https://registry.npmjs.org/
+224 silly mapToRegistry uri https://registry.npmjs.org/content-type
+225 silly mapToRegistry name cookie
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry https://registry.npmjs.org/
+228 silly mapToRegistry uri https://registry.npmjs.org/cookie
+229 silly mapToRegistry name cookie-signature
+230 silly mapToRegistry using default registry
+231 silly mapToRegistry registry https://registry.npmjs.org/
+232 silly mapToRegistry uri https://registry.npmjs.org/cookie-signature
+233 silly mapToRegistry name debug
+234 silly mapToRegistry using default registry
+235 silly mapToRegistry registry https://registry.npmjs.org/
+236 silly mapToRegistry uri https://registry.npmjs.org/debug
+237 silly mapToRegistry name depd
+238 silly mapToRegistry using default registry
+239 silly mapToRegistry registry https://registry.npmjs.org/
+240 silly mapToRegistry uri https://registry.npmjs.org/depd
+241 silly mapToRegistry name escape-html
+242 silly mapToRegistry using default registry
+243 silly mapToRegistry registry https://registry.npmjs.org/
+244 silly mapToRegistry uri https://registry.npmjs.org/escape-html
+245 silly mapToRegistry name etag
+246 silly mapToRegistry using default registry
+247 silly mapToRegistry registry https://registry.npmjs.org/
+248 silly mapToRegistry uri https://registry.npmjs.org/etag
+249 silly mapToRegistry name finalhandler
+250 silly mapToRegistry using default registry
+251 silly mapToRegistry registry https://registry.npmjs.org/
+252 silly mapToRegistry uri https://registry.npmjs.org/finalhandler
+253 silly mapToRegistry name fresh
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npmjs.org/
+256 silly mapToRegistry uri https://registry.npmjs.org/fresh
+257 silly mapToRegistry name merge-descriptors
+258 silly mapToRegistry using default registry
+259 silly mapToRegistry registry https://registry.npmjs.org/
+260 silly mapToRegistry uri https://registry.npmjs.org/merge-descriptors
+261 silly mapToRegistry name methods
+262 silly mapToRegistry using default registry
+263 silly mapToRegistry registry https://registry.npmjs.org/
+264 silly mapToRegistry uri https://registry.npmjs.org/methods
+265 silly mapToRegistry name on-finished
+266 silly mapToRegistry using default registry
+267 silly mapToRegistry registry https://registry.npmjs.org/
+268 silly mapToRegistry uri https://registry.npmjs.org/on-finished
+269 silly mapToRegistry name parseurl
+270 silly mapToRegistry using default registry
+271 silly mapToRegistry registry https://registry.npmjs.org/
+272 silly mapToRegistry uri https://registry.npmjs.org/parseurl
+273 silly mapToRegistry name path-to-regexp
+274 silly mapToRegistry using default registry
+275 silly mapToRegistry registry https://registry.npmjs.org/
+276 silly mapToRegistry uri https://registry.npmjs.org/path-to-regexp
+277 silly mapToRegistry name proxy-addr
+278 silly mapToRegistry using default registry
+279 silly mapToRegistry registry https://registry.npmjs.org/
+280 silly mapToRegistry uri https://registry.npmjs.org/proxy-addr
+281 silly mapToRegistry name qs
+282 silly mapToRegistry using default registry
+283 silly mapToRegistry registry https://registry.npmjs.org/
+284 silly mapToRegistry uri https://registry.npmjs.org/qs
+285 silly mapToRegistry name range-parser
+286 silly mapToRegistry using default registry
+287 silly mapToRegistry registry https://registry.npmjs.org/
+288 silly mapToRegistry uri https://registry.npmjs.org/range-parser
+289 silly mapToRegistry name send
+290 silly mapToRegistry using default registry
+291 silly mapToRegistry registry https://registry.npmjs.org/
+292 silly mapToRegistry uri https://registry.npmjs.org/send
+293 silly mapToRegistry name serve-static
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npmjs.org/
+296 silly mapToRegistry uri https://registry.npmjs.org/serve-static
+297 silly mapToRegistry name type-is
+298 silly mapToRegistry using default registry
+299 silly mapToRegistry registry https://registry.npmjs.org/
+300 silly mapToRegistry uri https://registry.npmjs.org/type-is
+301 silly mapToRegistry name vary
+302 silly mapToRegistry using default registry
+303 silly mapToRegistry registry https://registry.npmjs.org/
+304 silly mapToRegistry uri https://registry.npmjs.org/vary
+305 silly mapToRegistry name utils-merge
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry https://registry.npmjs.org/
+308 silly mapToRegistry uri https://registry.npmjs.org/utils-merge
+309 verbose request uri https://registry.npmjs.org/accepts
+310 verbose request no auth needed
+311 info attempt registry request try #1 at 20:51:43
+312 verbose etag "4TF33ZZZ81YIGCBQXKZPSJ6QN"
+313 http request GET https://registry.npmjs.org/accepts
+314 verbose request uri https://registry.npmjs.org/array-flatten
+315 verbose request no auth needed
+316 info attempt registry request try #1 at 20:51:43
+317 verbose etag "4B908ZQFY7JC7JW8R6GZK2D1L"
+318 http request GET https://registry.npmjs.org/array-flatten
+319 verbose request uri https://registry.npmjs.org/content-disposition
+320 verbose request no auth needed
+321 info attempt registry request try #1 at 20:51:43
+322 verbose etag "4HK9PDK1U2Z136SHOZ9FNPE0L"
+323 http request GET https://registry.npmjs.org/content-disposition
+324 verbose get https://registry.npmjs.org/content-type not expired, no request
+325 verbose request uri https://registry.npmjs.org/cookie
+326 verbose request no auth needed
+327 info attempt registry request try #1 at 20:51:43
+328 verbose etag "5CQMQI3NV4LK5IGFX0OLCZ155"
+329 http request GET https://registry.npmjs.org/cookie
+330 verbose request uri https://registry.npmjs.org/cookie-signature
+331 verbose request no auth needed
+332 info attempt registry request try #1 at 20:51:43
+333 verbose etag "EOGTWQ0TSHZBNF0YLBN7O4FQM"
+334 http request GET https://registry.npmjs.org/cookie-signature
+335 verbose get https://registry.npmjs.org/debug not expired, no request
+336 verbose get https://registry.npmjs.org/depd not expired, no request
+337 verbose request uri https://registry.npmjs.org/escape-html
+338 verbose request no auth needed
+339 info attempt registry request try #1 at 20:51:43
+340 verbose etag "3JI2CQLF47WG0R4TOHVV6BZMD"
+341 http request GET https://registry.npmjs.org/escape-html
+342 verbose request uri https://registry.npmjs.org/etag
+343 verbose request no auth needed
+344 info attempt registry request try #1 at 20:51:43
+345 verbose etag "55SZ57E2UP68EZ1S3AHRQKI7G"
+346 http request GET https://registry.npmjs.org/etag
+347 verbose request uri https://registry.npmjs.org/finalhandler
+348 verbose request no auth needed
+349 info attempt registry request try #1 at 20:51:43
+350 verbose etag "12CVNI3NU518LYTWTV933VN3L"
+351 http request GET https://registry.npmjs.org/finalhandler
+352 verbose request uri https://registry.npmjs.org/fresh
+353 verbose request no auth needed
+354 info attempt registry request try #1 at 20:51:43
+355 verbose etag "5XVCP2SQODMJCE6W6T6L94AF7"
+356 http request GET https://registry.npmjs.org/fresh
+357 verbose request uri https://registry.npmjs.org/merge-descriptors
+358 verbose request no auth needed
+359 info attempt registry request try #1 at 20:51:43
+360 verbose etag "5T89TZ4KLET6KPDNQMVJUF9FS"
+361 http request GET https://registry.npmjs.org/merge-descriptors
+362 verbose request uri https://registry.npmjs.org/methods
+363 verbose request no auth needed
+364 info attempt registry request try #1 at 20:51:43
+365 verbose etag "CPUAO15XMGVV4PHDMFKSL0TO3"
+366 http request GET https://registry.npmjs.org/methods
+367 verbose request uri https://registry.npmjs.org/on-finished
+368 verbose request no auth needed
+369 info attempt registry request try #1 at 20:51:43
+370 verbose etag "C44T40JT6D1IJCD9FNXBNZP4B"
+371 http request GET https://registry.npmjs.org/on-finished
+372 verbose request uri https://registry.npmjs.org/parseurl
+373 verbose request no auth needed
+374 info attempt registry request try #1 at 20:51:43
+375 verbose etag "257JFNJ8HAK0XVEY2AZW8AKEV"
+376 http request GET https://registry.npmjs.org/parseurl
+377 verbose request uri https://registry.npmjs.org/proxy-addr
+378 verbose request no auth needed
+379 info attempt registry request try #1 at 20:51:43
+380 verbose etag "DG8IDFQLTDZBHSQOW0QSJ5L36"
+381 http request GET https://registry.npmjs.org/proxy-addr
+382 verbose request uri https://registry.npmjs.org/path-to-regexp
+383 verbose request no auth needed
+384 info attempt registry request try #1 at 20:51:43
+385 verbose etag "D79O2O1S8CAZHV5WZ9HHM57MN"
+386 http request GET https://registry.npmjs.org/path-to-regexp
+387 verbose request uri https://registry.npmjs.org/range-parser
+388 verbose request no auth needed
+389 info attempt registry request try #1 at 20:51:43
+390 verbose etag "3LNMXDEPINP8BRLYF8TQXB0MC"
+391 http request GET https://registry.npmjs.org/range-parser
+392 verbose request uri https://registry.npmjs.org/qs
+393 verbose request no auth needed
+394 info attempt registry request try #1 at 20:51:43
+395 verbose etag "32DQMMPM7UN40DZIXD548OIVJ"
+396 http request GET https://registry.npmjs.org/qs
+397 verbose request uri https://registry.npmjs.org/serve-static
+398 verbose request no auth needed
+399 info attempt registry request try #1 at 20:51:43
+400 verbose etag "EGI5VMWBFURCUCO1S00B50IZ7"
+401 http request GET https://registry.npmjs.org/serve-static
+402 verbose request uri https://registry.npmjs.org/vary
+403 verbose request no auth needed
+404 info attempt registry request try #1 at 20:51:43
+405 verbose etag "82C8BQ32VW3XZ8BHZ48ACKMY0"
+406 http request GET https://registry.npmjs.org/vary
+407 verbose request uri https://registry.npmjs.org/utils-merge
+408 verbose request no auth needed
+409 info attempt registry request try #1 at 20:51:43
+410 verbose etag "661YC7D1JLGJPY3Y8F4VKK5N9"
+411 http request GET https://registry.npmjs.org/utils-merge
+412 verbose request uri https://registry.npmjs.org/type-is
+413 verbose request no auth needed
+414 info attempt registry request try #1 at 20:51:43
+415 verbose etag "5RM645FND4R3MJKIG0OSDJMS4"
+416 http request GET https://registry.npmjs.org/type-is
+417 verbose request uri https://registry.npmjs.org/send
+418 verbose request no auth needed
+419 info attempt registry request try #1 at 20:51:43
+420 verbose etag "APVO6G21BQNLG10Z1NYC3J8EZ"
+421 http request GET https://registry.npmjs.org/send
+422 http 304 https://registry.npmjs.org/iconv-lite
+423 silly get cb [ 304,
+423 silly get   { date: 'Sat, 27 Jun 2015 17:51:43 GMT',
+423 silly get     via: '1.1 varnish',
+423 silly get     'cache-control': 'max-age=60',
+423 silly get     etag: '"6DRVHDEKU1YF4XXR87LKODM69"',
+423 silly get     age: '12',
+423 silly get     connection: 'keep-alive',
+423 silly get     'x-served-by': 'cache-lhr6327-LHR',
+423 silly get     'x-cache': 'HIT',
+423 silly get     'x-cache-hits': '1',
+423 silly get     'x-timer': 'S1435427503.053173,VS0,VE1',
+423 silly get     vary: 'Accept' } ]
+424 verbose etag https://registry.npmjs.org/iconv-lite from cache
+425 silly mapToRegistry name ms
+426 silly mapToRegistry using default registry
+427 silly mapToRegistry registry https://registry.npmjs.org/
+428 silly mapToRegistry uri https://registry.npmjs.org/ms
+429 verbose request uri https://registry.npmjs.org/ms
+430 verbose request no auth needed
+431 info attempt registry request try #1 at 20:51:43
+432 verbose etag "C7IT6G0C870XWLGH92QTO2KNM"
+433 http request GET https://registry.npmjs.org/ms
+434 silly mapToRegistry name ms
+435 silly mapToRegistry using default registry
+436 silly mapToRegistry registry https://registry.npmjs.org/
+437 silly mapToRegistry uri https://registry.npmjs.org/ms
+438 verbose request uri https://registry.npmjs.org/ms
+439 verbose request no auth needed
+440 info attempt registry request try #1 at 20:51:43
+441 verbose etag "C7IT6G0C870XWLGH92QTO2KNM"
+442 http request GET https://registry.npmjs.org/ms
+443 silly mapToRegistry name inherits
+444 silly mapToRegistry using default registry
+445 silly mapToRegistry registry https://registry.npmjs.org/
+446 silly mapToRegistry uri https://registry.npmjs.org/inherits
+447 silly mapToRegistry name statuses
+448 silly mapToRegistry using default registry
+449 silly mapToRegistry registry https://registry.npmjs.org/
+450 silly mapToRegistry uri https://registry.npmjs.org/statuses
+451 verbose request uri https://registry.npmjs.org/inherits
+452 verbose request no auth needed
+453 info attempt registry request try #1 at 20:51:43
+454 verbose etag "24DC2YNIGTAXPVOCGH3WF1GW6"
+455 http request GET https://registry.npmjs.org/inherits
+456 verbose request uri https://registry.npmjs.org/statuses
+457 verbose request no auth needed
+458 info attempt registry request try #1 at 20:51:43
+459 verbose etag "DBWZSA8GI6L8CNTRFYQ7KFMMA"
+460 http request GET https://registry.npmjs.org/statuses
+461 silly mapToRegistry name ms
+462 silly mapToRegistry using default registry
+463 silly mapToRegistry registry https://registry.npmjs.org/
+464 silly mapToRegistry uri https://registry.npmjs.org/ms
+465 verbose request uri https://registry.npmjs.org/ms
+466 verbose request no auth needed
+467 info attempt registry request try #1 at 20:51:43
+468 verbose etag "C7IT6G0C870XWLGH92QTO2KNM"
+469 http request GET https://registry.npmjs.org/ms
+470 http 304 https://registry.npmjs.org/on-finished
+471 silly get cb [ 304,
+471 silly get   { date: 'Sat, 27 Jun 2015 17:51:43 GMT',
+471 silly get     via: '1.1 varnish',
+471 silly get     'cache-control': 'max-age=60',
+471 silly get     etag: '"C44T40JT6D1IJCD9FNXBNZP4B"',
+471 silly get     age: '39',
+471 silly get     connection: 'keep-alive',
+471 silly get     'x-served-by': 'cache-lhr6321-LHR',
+471 silly get     'x-cache': 'HIT',
+471 silly get     'x-cache-hits': '1',
+471 silly get     'x-timer': 'S1435427503.083711,VS0,VE1',
+471 silly get     vary: 'Accept' } ]
+472 verbose etag https://registry.npmjs.org/on-finished from cache
+473 silly mapToRegistry name ee-first
+474 silly mapToRegistry using default registry
+475 silly mapToRegistry registry https://registry.npmjs.org/
+476 silly mapToRegistry uri https://registry.npmjs.org/ee-first
+477 verbose request uri https://registry.npmjs.org/ee-first
+478 verbose request no auth needed
+479 info attempt registry request try #1 at 20:51:43
+480 verbose etag "28AY4PMFXJHG8YALE6QZHIRHL"
+481 http request GET https://registry.npmjs.org/ee-first
+482 http 304 https://registry.npmjs.org/raw-body
+483 silly get cb [ 304,
+483 silly get   { date: 'Sat, 27 Jun 2015 17:51:43 GMT',
+483 silly get     via: '1.1 varnish',
+483 silly get     'cache-control': 'max-age=60',
+483 silly get     etag: '"DG42R81A7SFD39E1PX42G0LTZ"',
+483 silly get     age: '22',
+483 silly get     connection: 'keep-alive',
+483 silly get     'x-served-by': 'cache-lhr6331-LHR',
+483 silly get     'x-cache': 'HIT',
+483 silly get     'x-cache-hits': '1',
+483 silly get     'x-timer': 'S1435427503.089265,VS0,VE1',
+483 silly get     vary: 'Accept' } ]
+484 verbose etag https://registry.npmjs.org/raw-body from cache
+485 http 304 https://registry.npmjs.org/qs
+486 silly get cb [ 304,
+486 silly get   { date: 'Sat, 27 Jun 2015 17:51:43 GMT',
+486 silly get     via: '1.1 varnish',
+486 silly get     'cache-control': 'max-age=60',
+486 silly get     etag: '"32DQMMPM7UN40DZIXD548OIVJ"',
+486 silly get     age: '12',
+486 silly get     connection: 'keep-alive',
+486 silly get     'x-served-by': 'cache-lhr6331-LHR',
+486 silly get     'x-cache': 'HIT',
+486 silly get     'x-cache-hits': '115',
+486 silly get     'x-timer': 'S1435427503.093193,VS0,VE0',
+486 silly get     vary: 'Accept' } ]
+487 verbose etag https://registry.npmjs.org/qs from cache
+488 silly mapToRegistry name bytes
+489 silly mapToRegistry using default registry
+490 silly mapToRegistry registry https://registry.npmjs.org/
+491 silly mapToRegistry uri https://registry.npmjs.org/bytes
+492 silly mapToRegistry name iconv-lite
+493 silly mapToRegistry using default registry
+494 silly mapToRegistry registry https://registry.npmjs.org/
+495 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+496 silly mapToRegistry name unpipe
+497 silly mapToRegistry using default registry
+498 silly mapToRegistry registry https://registry.npmjs.org/
+499 silly mapToRegistry uri https://registry.npmjs.org/unpipe
+500 verbose request uri https://registry.npmjs.org/bytes
+501 verbose request no auth needed
+502 info attempt registry request try #1 at 20:51:43
+503 verbose etag "E96BNQ48UBQJRVP6GS44HMVRQ"
+504 http request GET https://registry.npmjs.org/bytes
+505 verbose request uri https://registry.npmjs.org/unpipe
+506 verbose request no auth needed
+507 info attempt registry request try #1 at 20:51:43
+508 verbose etag "CUYWL81QRNALZ6DFGKEASW9Q0"
+509 http request GET https://registry.npmjs.org/unpipe
+510 verbose get https://registry.npmjs.org/iconv-lite not expired, no request
+511 verbose type called_on_non_object
+512 verbose stack TypeError: Object.keys called on non-object
+512 verbose stack     at Function.keys (native)
+512 verbose stack     at unmarkExtraneous (/usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:362:10)
+512 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:137:5
+512 verbose stack     at next (/usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:185:14)
+512 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:169:14
+512 verbose stack     at Object.oncomplete (evalmachine.<anonymous>:108:15)
+513 verbose cwd /Applications/MAMP/htdocs/myRestfulApp/Pythagoras/server
+514 error Darwin 14.3.0
+515 error argv "node" "/usr/local/bin/npm" "update" "--save"
+516 error node v0.10.35
+517 error npm  v2.1.14
+518 error Object.keys called on non-object
+519 error If you need help, you may report this error at:
+519 error     <http://github.com/npm/npm/issues>
+520 verbose exit [ 1, true ]
